@@ -16,3 +16,25 @@ Impactos: Espaço para fraude de uso, tais como o mesmo usuário utilizando a co
 Indicadores: Aumento no número de denúncias relacionadas ao usuário.
 Estratégia de Mitigação: Implementação de outras formas de verificação, tais como questionários pessoais e de dados do usuário.
 
+N6 Erro de mudança de trajetória sem previa indicação
+Importância ou Ordenação do Risco: Alta
+Descrição: mudança da trajetória da rota da viagem do passageiro, levando-o para o local de destino errado, prejudicando o motorista selecionado e o passageiro;
+Impactos: Este erro causa gasto de tempo desnecessário para ambos além do gasto de gasolina da parte de motorista, deixando o passageiro em um lugar aleatório que afeta de maneira negativa a viagem, e assim, o aplicativo;
+Indicadores: Focar na precisão do GPS do aplicativo além do monitoramento para confirmar a localização com o passageiro antes da corrida começar;
+Estratégias de Diminuição (Mitigação): A mitigação é feita mantendo a sempre o foco na confirmação inicial e sempre melhorar a velocidade e precisão do GPS;
+Plano de Contingência: O motorista poderá refazer a corrida com a rota corrigida e sendo compensado de alguma maneira.
+N7 Vazamento de dados
+1.	Importância ou Ordenação do Risco: Alta
+2.	Descrição: Vazamento de dados pessoais do passageiro ou do motorista, dados como o CPF, endereço, número do cartão, etc;
+3.	Impactos: Penalização judicial por vazamento de dados;
+4.	Indicadores: Sempre estar atento com a segurança do sistema, fazendo ajustes constantes para conter os riscos de vazamentos;
+5.	Estratégias de Diminuição (Mitigação): Analise constante e criptografia dos dados para contas com CPF diferente do cadastrado.
+6.	Plano de Contingência: Usuário poderá trancar temporariamente sua conta para a segurança dos seus dados
+
+N8  Risco de invasões ao sistema
+●	Gravidade do Risco: Alta
+●	Descrição: Invasão do sistema por terceiros que pode resultar em roubo.
+●	Impactos Penalização judicial por vazamento de dados além do roubo do usuário:.
+●	Indicadores: Sempre estar atento com a segurança do sistema, fazendo ajustes constantes para conter os riscos de invasões.
+  Estratégia de Mitigação:. Analise constante e criptografia dos dados para contas com CPF     diferente do cadastrado.
+●	Plano de Contingência: O Aplicativo trancará a conta temporariamente caso ocorra uma invasão
