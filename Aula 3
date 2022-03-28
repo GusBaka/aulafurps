@@ -1,0 +1,18 @@
+
+4/5 - Erro no cálculo de preços
+Gravidade do Risco: Alta
+Descrição: O erro no cálculo do preço das viagens ou atualização de valores em tempo real, tal como o pedido de alteração de rota durante a viagem pode resultar na diminuição da confiabilidade do produto, além de problemas judiciais por cobranças indevídas.
+Podendo ser causado por falha de programação ou por sistemas externos como imprecisão no sistema de mapas.
+Impactos: Furo orçamentário caso o cenário defina os preços com um valor menor do que o correto, e penalizações judiciárias, caso o cenário aumente o preço das corridas.
+Indicadores: Variação maior que 20% da média.
+Estratégia de Mitigação: Implementação de sistema de tripla verificação durante o processo de cálculo.
+Plano de Contingência: Desenvolvimento de código assíncrono que passe por pelo menos 3 etapas de veríficação antes de retornar o valor da corrida.
+
+
+6 - Erro de verificação do motorista
+Gravidade: Alta
+Descrição: Falha no processo de reconhecimento facial e/ou não verificação do registro (cpf) no momento de criação da conta, que valida a identidade do motorista que está utilizando o aplicativo para trabalho.
+Impactos: Espaço para fraude de uso, tais como o mesmo usuário utilizando a conta de outras pessoas, furto de contas, múltiplas contas por usuários.
+Indicadores: Aumento no número de denúncias relacionadas ao usuário.
+Estratégia de Mitigação: Implementação de outras formas de verificação, tais como questionários pessoais e de dados do usuário.
+
